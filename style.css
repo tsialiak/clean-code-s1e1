@@ -18,44 +18,45 @@ body {
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
+  .header { 
+    text-align: center;
   }
-  }
-  .wrapper {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
-  }
-  .task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1
-  }
-  .task-row-wrapper {
-    display: flex;
-  }
-  .control-list {
-    margin:0;
-    padding: 0px;
-  }
-  .control-list-item, h3 {
-    list-style:none;
-  }
-  input,button{
-    outline:none;
-  }
-  button {
-    background: none;
-    border: 0px;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
-  }
-  button:hover {
-    color: #3a3a3a;
-  }
+}
+.wrapper {
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
+}
+.task {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1
+}
+.task-row-wrapper {
+  display: flex;
+}
+.control-list {
+  margin:0;
+  padding: 0px;
+}
+.control-list-item, h3 {
+  list-style:none;
+}
+input,button{
+  outline:none;
+}
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  color: #3a3a3a;
+}
 /* Heading */
 h3,
 label[for="new-task"] {
