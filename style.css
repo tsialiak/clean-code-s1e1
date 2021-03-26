@@ -30,7 +30,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -120,7 +120,7 @@ label[for="new-task"] {
   width: 226px;
 }
 .control-list-item >    .input-text {
-  width: 226px
+  width: 226px;
 }
 .control-list-item > .delete:hover {
   color: #cf2323;
@@ -142,12 +142,12 @@ label[for="new-task"] {
 
 /* Edit Task */
 .control-list .control-list-item .input-text {
-  display: none
+  display: none;
 }
 
 .control-list .edit-mode .input-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .control-list .edit-mode .item-label {
