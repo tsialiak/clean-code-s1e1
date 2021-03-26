@@ -39,10 +39,12 @@ body {
   margin: 0;
   padding: 0px;
 }
-.control-list-item, h3 {
+.control-list-item, 
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 button {
@@ -119,7 +121,7 @@ label[for="new-task"] {
   font-size: 18px;
   width: 226px;
 }
-.control-list-item >    .input-text {
+.control-list-item > .input-text {
   width: 226px;
 }
 .control-list-item > .delete:hover {
